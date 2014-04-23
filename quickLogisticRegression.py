@@ -3,7 +3,7 @@ from numpy import where, arange, zeros, ones, reshape, array, linspace, logspace
 import matplotlib.pyplot as plt
 from pylab import scatter, show, title, xlabel, ylabel, plot, contour
 from scipy.optimize import fmin_bfgs
-''' Predict from 2 exam scores whether a student will be admitted to university'''
+''' Predict from two exam scores whether a student will be admitted to university'''
 # ======= load and visualise the dataset =======
 data=np.loadtxt('ex2data1.txt',delimiter=',')
 print(data[:9,:])
